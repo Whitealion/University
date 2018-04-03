@@ -16,11 +16,19 @@ void print(MyDoubleVector &v)
 
 
 int main() {
-	MyDoubleVector v(5, 20);
+	MyDoubleVector v1;
+	MyDoubleVector v2(7);
+	MyDoubleVector v3(5, 20);
 
-	print(v);
-	v.insert(2, 10);
-	print(v);
+	print(v1);
+	cout << endl;
+	print(v2);
+	v2.push_back(15);
+	print(v2);
+	cout << endl;
+	print(v3);
+	v3.insert(2, 10);
+	print(v3);
 
 	return 0;
 }
