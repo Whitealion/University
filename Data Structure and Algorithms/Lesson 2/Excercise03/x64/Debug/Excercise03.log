@@ -1,0 +1,2 @@
+﻿  Source.cpp
+c:\users\anton\documents\faks\university\data structure and algorithms\lesson 2\excercise03\source.cpp(35): error C3867: 'Lampa::get_model': non-standard syntax; use '&' to create a pointer to member
