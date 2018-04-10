@@ -75,7 +75,12 @@ void MyDoubleVector::insert(unsigned pos, double val)
 
 void MyDoubleVector::grow()
 {
-	cap += cap / 3;
+	if (cap = 0) {
+		cap = 1;
+	}
+	else {
+		cap = cap * 1.33;
+	}
 
 	double *new_values = new double[cap];
 	for (unsigned i = 0; i < next; i++)
