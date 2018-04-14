@@ -13,7 +13,7 @@ void write_bin(string text, ofstream &out) {
 int main() {
 	
 	ifstream in("Broj_znanstvenika_na_milijun_stanovnika.csv");
-	ofstream out("laden.bin", ios_base::binary);
+	ofstream out("Countries.bin", ios_base::binary);
 	if (!in || !out) {
 		cout << "404" << endl;
 		return 1;
