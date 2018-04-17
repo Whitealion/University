@@ -14,6 +14,7 @@ int main()
 
 	srand(time(nullptr));
 
+
 	vector<int> v;
 	int counter = 0;
 	int last_cap = v.capacity();
